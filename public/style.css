@@ -1,0 +1,123 @@
+.flex{
+    display: flex;
+    margin: 5rem auto;
+    width: 95vw;
+}
+
+.flex .div{
+    display: inline-block;
+    width: 50vw;
+    /* border: 1px solid black; */
+}
+
+.content{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.content div{
+    margin: 0.3rem;
+    padding: 0.2rem;
+}
+
+#contact{
+    padding: 2rem;
+    margin-left: 10%;
+}
+
+#nv{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+#nv .nav{
+    display: flex;
+    background-color: goldenrod;
+    padding: 0.5rem;
+}
+
+.nav div{
+    width: 45%;
+    height: 90%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.nav div button{
+    height: 2.5rem;
+    width: 8rem;
+    padding: 0.5rem;
+    margin-left: 75%;
+    border-style: none;
+    border-radius: 0.6rem;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+.interested{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    /* gap: 1rem; */
+}
+
+.interested div{
+    margin: auto;
+    padding: 0.4rem;
+    width: 7.5rem;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 0.6rem;
+    background-color: lightgray;
+}
+
+.border{
+    border-bottom: 3px solid grey;
+}
+
+#see p{
+    color: green;
+    font-size: 1rem;
+}
+
+.conn{
+    display: flex;
+    margin: 0.9rem;
+}
+
+#one,#three{
+    justify-content: space-around;
+}
+
+#one div{
+    width: 25%;
+}
+
+#two{
+    justify-content: space-evenly;
+}
+
+#two div{
+    width: 20%;
+    text-align:end;
+}
+
+#open{
+    margin: 4vh auto;
+    width: 90vw;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#open img{
+    width: 27%;
+}
+
+#open h4{
+    font-style: italic;
+}

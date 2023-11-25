@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nv">
+        <div class="nav">
+            <div><h1>MEDIUM</h1></div>
+            <div><button>Get Started</button></div>
+        </div>
+    </nav>
+    <div class="flex">
+        <div class="div">
+            <% for(let item of pictures){ %>
+                <div class="content">
+                    <div>
+                        <h1><%= item.name%></h1>
+                        <p><%= item.desc%></p>
+                    </div>
+                    <div>
+                        <a href="/pictures/<%= item.id %>"><img src="<%= item.img%>"></a>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+        <div class="div" id="contact">
+            <h3>Discover more of what is important for you</h3>
+            <div class="border">
+                <div class="interested">
+                    <div>Programming</div>
+                    <div>Data Science</div>
+                    <div>Technology</div>
+                </div>
+                <div class="interested">
+                    <div>Data Analytics</div>
+                    <div>Machine Learning</div>
+                    <div>Development</div>
+                </div>
+                <div class="interested">
+                    <div>Programming</div>
+                    <div>Machine Learning</div>
+                    <div>Technology</div>
+                </div>
+            </div>
+            <div id="see">
+                <p>See more topics</p>
+                <div class="conn" id="one">
+                    <div>Status</div>
+                    <div>Contact</div>
+                    <div>Product</div>
+                    <div>Politics</div>
+                </div>
+                <div class="conn" id="two">
+                    <div>Help</div>
+                    <div>Status</div>
+                    <div>Contact</div>
+                    <div>Product</div>
+                </div>
+                <div class="conn" id="one">
+                    <div>Politics</div>
+                    <div>Help</div>
+                    <div>Status</div>
+                    <div>Contact</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
